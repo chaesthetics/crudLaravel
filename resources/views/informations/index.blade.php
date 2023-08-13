@@ -6,7 +6,7 @@
                 <div class="card">
                     <div class="card-header">User Informations</div>
                     <div class="card-body">
-                        <a href="{{ url('/information/create') }}" class="btn btn-success btn-sm" title="Add new User">
+                        <a href="{{ url('/information/create') }}" class="btn btn-success btn-m" title="Add new User">
                             <i class="fa fa-plus" aria-hidden="true"> Add User</i>
                         </a> 
                         <br>
