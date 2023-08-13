@@ -42,7 +42,7 @@ class InformationController extends Controller
     {
         $information = Information::find($id);
         $input = $request->all();
-        $infomation->update($input);
+        $information->update($input);
         return redirect('information')->with('flash_message', 'User Updated');
     }
 
